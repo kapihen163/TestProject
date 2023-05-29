@@ -65,6 +65,11 @@ public class EvernoteDelet {
         sleep(3000);
         driver.findElement(By.id("qa-ACTION_DELETE")).click();
 
+        //заходим в корзину
+        driver.findElement(By.linkText("Корзина")).click();
+        // очищаем корзину
+        driver.findElement(By.id("qa-SPACE_VIEW_ACTIONS_HEADER")).click();
+
 
         driver.close();
         driver.quit();
