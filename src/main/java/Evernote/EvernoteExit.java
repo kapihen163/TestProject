@@ -56,6 +56,7 @@ public class EvernoteExit {
         // Выходим из аккаунта
 
 
+
         driver.findElement(By.className("mjp8WyYQODySClV2byHt")).click();
         sleep(3000);
 
