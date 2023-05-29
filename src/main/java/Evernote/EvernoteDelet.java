@@ -71,6 +71,7 @@ public class EvernoteDelet {
         driver.findElement(By.id("qa-SPACE_VIEW_ACTIONS_HEADER")).click();
 
 
+
         driver.close();
         driver.quit();
 
