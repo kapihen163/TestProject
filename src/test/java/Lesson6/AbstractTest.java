@@ -14,8 +14,6 @@ import java.time.Duration;
 public abstract class AbstractTest {
     static WebDriver webDriver;
 
-    // private static long time = 20L;
-
     @BeforeAll
     static void setDriver() {
         WebDriverManager.chromedriver().setup();
@@ -37,7 +35,6 @@ public abstract class AbstractTest {
         Assertions.assertTrue(true);
 
     }
-
     @AfterAll
     public static void exit() {
 
